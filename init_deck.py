@@ -154,7 +154,7 @@ deck = {
 	108: money_card(10)
 }
 
-def prep_deck():
+def shuffle_deck():
 	game_deck = deck.keys()
 	random.shuffle(game_deck)
 	return game_deck
