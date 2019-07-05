@@ -1,3 +1,5 @@
+import random
+
 class money_card():
 	def __init__(self, value):
 		self.value = value
@@ -154,3 +156,7 @@ deck = {
 	107: money_card(5),
 	108: money_card(10)
 }
+
+game_deck = deck.keys()
+random.shuffle(game_deck)
+print(game_deck.pop())
