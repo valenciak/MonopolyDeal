@@ -157,6 +157,7 @@ deck = {
 	108: money_card(10)
 }
 
-game_deck = deck.keys()
-random.shuffle(game_deck)
-print(game_deck.pop())
+def prep_deck():
+	game_deck = deck.keys()
+	random.shuffle(game_deck)
+	return game_deck
