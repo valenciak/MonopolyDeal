@@ -3,15 +3,12 @@ import random
 class money_card():
 	def __init__(self, value):
 		self.value = value
-		print(value)
 
 class action_card(money_card):
 	def __init__(self, value, name, description):
 		super().__init__(value)
 		self.name = name
 		self.description = description
-		print(name)
-		print(description)
 
 class property_card(money_card):
 	def __init__(self, value, name, color, rent, buildable):
