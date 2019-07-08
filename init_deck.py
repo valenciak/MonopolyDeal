@@ -155,6 +155,6 @@ deck = {
 }
 
 def shuffle_deck():
-	game_deck = deck.keys()
+	game_deck = list(deck.keys())
 	random.shuffle(game_deck)
 	return game_deck
