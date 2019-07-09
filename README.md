@@ -1,2 +1,2 @@
 # MonopolyDeal
-Python based Monopoly Deal
+Python based desktop version of Monopoly Deal
